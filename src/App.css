@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  gap: 2px;
+  /* border: 2px solid rgb(0, 17, 255); */
+
+}
+
+.section-dasboard{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+    /* border: 2px solid rgb(0, 255, 0); */
+
+}
+
+.section-two {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  /* border: 1px solid red; */
+  width: 45vw;
+  padding-block: 34px;
+  padding-inline: 24px;
+  position: relative;
+}
+
+.section-two .top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+}
+.section-two input {
+  width: 90%;
+  height: 34px;
+  border-radius: 6px;
+  outline: none;
+  border: 0.02 px solid gray;
+  padding-inline: 28px;
+  font-size: 14px;
+}
+.section-two .search {
+  position: absolute;
+  left: 14%;
+  top: 7.4%;
+  height: 18px;
+}
+
+.section-two .bell {
+  position: absolute;
+  right: 5%;
+  top: 7.5%;
+  height: 18px;
+}
+
+.middle-box{
+  display: flex;
+  flex-direction: row;
+}
+
+.section-two .middle .heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-two .middle .main-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vh;
+  padding-inline: 16px;
+  background-color: white;
+}
+
+.section-two .middle .main-content .left {
+  height: 55vh;
+  width: 50%;
+  border-radius: 8px;
+}
+
+.section-two .middle .main-content .left .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #ebf1fa;
+  border-radius: inherit;
+}
+
+.section-two .middle .main-content .left .box img {
+  height: 100%;
+}
+
+.section-two .middle .main-content .right {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+
+.activity{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 200px;
+}
+
+
+
+
+.section-thrid {
+  width: max-content;
+  height: 100vh;
+  /* border: 1px solid red; */
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.profile {
+  width: 38vw;
+  height: 160px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  padding-right: 20px;
+  gap: 15px;
+}
+
+.profile .profile-img img {
+  width: 35px;
+  height: 35px;
+  border: 5px;
+}
+
+.profile .plus-icon {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(34, 34, 169);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.plus-icon .plus-ic {
+  color: #f9f9fa;
+}
+
+
+.calender {
+  width: 100%;
+  /* padding: 20px; */
+  /* border: 1px solid red; */
+
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.month-header {
+  text-align: left;
+  font-size: 1em;
+  margin-bottom: 15px;
+  padding-left: 19px;
+  font-weight: bold;
+}
+
+.weekdays {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.weekday {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.days {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.day {
+  width: 14.28%;
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.active{
+  background-color: rgb(230, 230, 243);
+  border-radius: 20px;
+}
+
+.active-time{
+  background-color: rgb(45, 20, 146);
+  border-radius: 10px;
+  color: #e5e5ee !important;
+}
+
+.fade{
+  background-color: rgb(194, 180, 249);
+  border-radius: 10px;
+  color: #f9f9fa !important;
+}
+
+.day-number {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.time-slot {
+  font-size: 0.8em;
+  margin: 2px 0;
+  color: #333;
+}
+
+.empty-slot {
+  color: #ccc;
+}
+
+
+.appoinment {
+  width: 38vw;
+  height: max-content;
+  /* border: 1px solid red; */
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.schedule {
+  width: 38vw;
+  height: 100vh;
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+
+.schedule-headline h2{
+  font-size: 1rem;
+}
+
+.schedule-day h4{
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  padding-top: 10px;
+}
+
+.schedule-book{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+ 
+
+  .main-content .right{
+    flex-direction: column;
+  }
+
+  .section-two {
+    width: 100%;
+    /* flex-direction: row; */
+  }
+  
+  .section-dasboard{
+    flex-direction: column;
+    gap: 75px;
+  }
+
+  .section-thrid{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .appoinment, .schedule, .profile, .calender{
+    width: 100%;
+  }
+
+  .calender{
+    padding: 34px;
+    padding-right: 60px;
+  }
+
+  .activity{
+    padding: 32px;
+  }
+
+  .section-two .search {
+  position: absolute;
+  left: 14%;
+  top: 5%;
+  height: 18px;
+}
+
+.section-two .bell {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  height: 18px;
+}
+
+}

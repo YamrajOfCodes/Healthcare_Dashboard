@@ -1,0 +1,47 @@
+
+.appoinment-box{
+    background-color: rgb(43, 43, 122);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    color: #faf8f8;
+    padding: 10px;
+}
+
+.appoinment-fade{
+  background-color: rgb(194, 180, 249);
+  width: 60%;
+    height: 100px;
+    border-radius: 10px;
+    color: #faf8f8;
+    padding: 10px;
+}
+
+.appoinment-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+.appoinment-title p{
+    font-size: 0.8rem;
+}
+
+.appoinment-title .tc{
+    width: 28px;
+    height: 28px;
+    padding-top: 10px;
+}
+
+.appoinment-time{
+    font-size: 0.8rem;
+    padding-inline: 20px;
+}
+
+.doctor-name{
+    font-size: 0.6rem;
+    padding-inline: 20px;
+}
+
