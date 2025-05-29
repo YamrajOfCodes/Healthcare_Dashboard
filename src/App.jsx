@@ -6,6 +6,7 @@ import ReportCard from "./Components/ReportCard/ReportCard";
 import Lungs from "../src/assets/lungs.png";
 import Teeth from "../src/assets/teeth.png";
 import Bone from "../src/assets/bone.png";
+import Human from "../src/assets/Human.png";
 import { Plus } from "lucide-react";
 import Appoinment from "./Components/Appoinment/Appoinment";
 import Schedule from "./Components/Schedule/Schedule";
